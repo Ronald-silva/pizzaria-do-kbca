@@ -8,11 +8,12 @@
    text-decoration: none;
    font-family: 'Roboto Slab', serif;
 }
+
 html{
     width: 100vw;
     height: 100vh;
     font-size: 62.5%;
-    background-color: #1f1e1f;
+    background-color: #474447;
     /* overflow: hidden; */
 }
 /* menu */
@@ -65,7 +66,8 @@ html{
 }
 .first-section{
     height: 100vh;
-    /* background-image: linear-gradient(rgba(29,29,29,0.8), rgba(29,29,29,0.8)) ,url(img/fundopizza.jpg); */
+    background-image: linear-gradient(rgba(20,25,25,35), 
+    rgba(29,29,29,0.8)) ,url(img/logo-papo-kabeca.png); 
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,11 +90,12 @@ html{
     font-weight: 400;
     text-transform:uppercase;
     margin-bottom: 3rem;
-    color: rgb(177, 177, 177);
+    color:white;
+    text-align: center;
 
 }
 .first-section h2{
-    color: rgb(177, 177, 177);
+   
     font-size: 3rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -105,7 +108,7 @@ html{
         align-items: center;
 
     }
-    .first-section h2{
+    .first-section h1{
         text-align: center;
         align-items: center;
     }
@@ -116,7 +119,7 @@ html{
     height: 60px;
     cursor: pointer;
     text-transform:uppercase;
-    background-color:yellow;
+    background: linear-gradient(50deg, green, yellow, red);
     border-radius: 10px;
     color: black;
     font-weight: 700;
@@ -139,7 +142,8 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(12, 12, 12, 0.8);
+    background-image: linear-gradient( green,yellow, red);  
+    
 }
 .cardapio h2{
     font-size: 5rem;
@@ -200,7 +204,7 @@ html{
     width: 200px;
     height: 35px;
     margin-top: 0.5rem;
-    background-color:yellow;
+    
     border-radius: 5rem;
     text-transform: uppercase;
     cursor: pointer;
